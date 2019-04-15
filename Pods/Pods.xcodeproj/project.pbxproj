@@ -7,117 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0386496E21D1EAB3FF632339745080CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		37E33694772E17B6421EC43B005E465B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3EE1F9959A601E9713C2EADC50E76889 /* Pods-Radio Ava-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB216C0C99F270ED8F98FC793C1A86A /* Pods-Radio Ava-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A370FCE5179921124D29003EC39496E /* Pods-Radio AvaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC2BD2123299C56AC65FFDD27CF43E /* Pods-Radio AvaUITests-dummy.m */; };
-		750862DB36BA26ED61EC60216D8B2579 /* Pods-Radio AvaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124DCC5D8149CE575569E2B44F3E378D /* Pods-Radio AvaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8891B8D5F3D5B74824B5950862EDD15C /* Pods-Radio Ava-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA78ED865905E00AD3ABDD63358B73F /* Pods-Radio Ava-dummy.m */; };
-		981D032F9FD543F7988B262A51A0136C /* Pods-Radio AvaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4B32D0B18DF9ACA0BB807410DE399A /* Pods-Radio AvaTests-dummy.m */; };
-		A94AB259234F4668696046917EFE6C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		AD3F68C916B08A84C4A60264D854806E /* Pods-Radio AvaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DCD65913E8BC446E708A6E9A9A5AA2 /* Pods-Radio AvaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098F8E89D3056E2F43CDBF5669C2B2DF /* Pods-Radio-Ava-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C486001E9195894135A6B64B3300B521 /* Pods-Radio-Ava-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C59E175C9B986F6A2CA6431A6D1D920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		508887717B98D40377B64B922DE9A7F7 /* Pods-Radio-Ava-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45415003BE38C7410C16DE2DF78D074C /* Pods-Radio-Ava-dummy.m */; };
+		59E83D63BC4B76566AD105F75EB0BB00 /* Pods-Radio-AvaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B13B5FDC0DD9F71DBD54C95C45A0A /* Pods-Radio-AvaTests-dummy.m */; };
+		65F5E643E8CF0B42E17BFD5C5B4726C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6904E9737F5330E892ED71DA09A3C972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		AB2B2E80AED86C05AADB0E33DA5CB3E2 /* Pods-Radio-AvaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C48AD31A5DCBDF001C5A797E05886A /* Pods-Radio-AvaUITests-dummy.m */; };
 		BD754369CF1D1B4A25C08E105C78A33F /* FRadioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE9475CA478F934B16545A8D11D56B5 /* FRadioPlayer-dummy.m */; };
+		C2A65AA59059FA9F3FB1720EA2433F81 /* Pods-Radio-AvaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CB9D73A6C4BA1DB604B1BF17BB2B4A /* Pods-Radio-AvaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4D5E41DF0FEBB76C55CF9B18267C1E7 /* FRadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E6B9995AC734F8B54FD6877DB7AF8 /* FRadioPlayer.swift */; };
 		CD48CCF2586D07955DC5AEF55B7208DD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1352BE523973C34D3B1152037DEB79 /* Reachability.swift */; };
 		EDC9AF46DBC0691C7649D4819F127AEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F0E03B45B6C9638D65BB218D045D1841 /* Pods-Radio-AvaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44308B383EDCEAC5C1E9CAA03C0AF586 /* Pods-Radio-AvaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6E53A02DCBD06E9855243315E493E63 /* FRadioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BF4471C3BDC16187581DA5563DBA93 /* FRadioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDCA7343ABD8EA310B7B74D06C65C4DC /* FRadioAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC7809514AA926A5DF7904DF5037C /* FRadioAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28A376C847FA4DD1FD44B2C65997F074 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAECACA619AF496BCB37A42982F8CC1F;
-			remoteInfo = "Pods-Radio Ava";
-		};
-		7A63551DC9BB7E8751BAF21FB96E75A8 /* PBXContainerItemProxy */ = {
+		35E4C7F8EFCA3F4F74E105EB91375563 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A0B39AC04AC82982106EF1CCAC527F62;
 			remoteInfo = FRadioPlayer;
 		};
-		EE73F7FBA58FDEE8682F8137A870CE70 /* PBXContainerItemProxy */ = {
+		BE2484CE92A3AD5A01A2C30B8CA09B9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAECACA619AF496BCB37A42982F8CC1F;
-			remoteInfo = "Pods-Radio Ava";
+			remoteGlobalIDString = EFFA63F258CE9FF28A74F39903A9222B;
+			remoteInfo = "Pods-Radio-Ava";
+		};
+		F3EC48FCFFB151313AF942F56CF412D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFA63F258CE9FF28A74F39903A9222B;
+			remoteInfo = "Pods-Radio-Ava";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BB94FAAF424724F8F5FFC4D09803EE /* Pods-Radio AvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio AvaTests.release.xcconfig"; sourceTree = "<group>"; };
-		0CD7283FCFEA9A375A4132FCCBE3EAF3 /* Pods_Radio_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_Ava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		122C67F05859F712ACF98499CA3377F5 /* Pods-Radio Ava-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio Ava-acknowledgements.plist"; sourceTree = "<group>"; };
-		124DCC5D8149CE575569E2B44F3E378D /* Pods-Radio AvaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio AvaUITests-umbrella.h"; sourceTree = "<group>"; };
-		178CF41EA398306D6EA8BE71DEEE4227 /* Pods_Radio_AvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_AvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAFB516A633EDE83FF2A2976346606F /* Pods-Radio-AvaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio-AvaTests.modulemap"; sourceTree = "<group>"; };
+		1C918170192393F02783198E8B6AC05A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCBC7809514AA926A5DF7904DF5037C /* FRadioAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRadioAPI.swift; path = Source/FRadioAPI.swift; sourceTree = "<group>"; };
-		1E5342E6C6D96A674AF709D640D21CF2 /* Pods-Radio AvaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio AvaTests.modulemap"; sourceTree = "<group>"; };
-		1FB216C0C99F270ED8F98FC793C1A86A /* Pods-Radio Ava-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio Ava-umbrella.h"; sourceTree = "<group>"; };
-		30DE0745426EEB7AAEB275DA14E63FA4 /* Pods-Radio AvaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio AvaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		207B13B5FDC0DD9F71DBD54C95C45A0A /* Pods-Radio-AvaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio-AvaTests-dummy.m"; sourceTree = "<group>"; };
+		25406602A333B0668D47144E63511BC7 /* Pods-Radio-AvaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-AvaTests-resources.sh"; sourceTree = "<group>"; };
+		3771B3C06D102517FF4BEE9BBA6D80A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE9475CA478F934B16545A8D11D56B5 /* FRadioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRadioPlayer-dummy.m"; sourceTree = "<group>"; };
-		3FAC2BD2123299C56AC65FFDD27CF43E /* Pods-Radio AvaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio AvaUITests-dummy.m"; sourceTree = "<group>"; };
-		3FF53A739FE4FE0F79CEFCB903E76883 /* FRadioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRadioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C8B80494F3435D27101D0E3B805785 /* FRadioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRadioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44308B383EDCEAC5C1E9CAA03C0AF586 /* Pods-Radio-AvaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio-AvaTests-umbrella.h"; sourceTree = "<group>"; };
+		45415003BE38C7410C16DE2DF78D074C /* Pods-Radio-Ava-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio-Ava-dummy.m"; sourceTree = "<group>"; };
 		4FAD5A30D215EE2BAB6D9C0724192471 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55DCD65913E8BC446E708A6E9A9A5AA2 /* Pods-Radio AvaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio AvaTests-umbrella.h"; sourceTree = "<group>"; };
-		58EE42EB912C2E29B860EBEEED302908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59A40137BC06516B9F69FA538130782B /* Pods-Radio Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio Ava.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C44F17BCFA08E11EEA5D8CF9C20B214 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6314B188CDE534CEE0801B69176FD0C0 /* Pods-Radio AvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio AvaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A1E738C8042C1CB489D8E67FA7730EA /* Pods-Radio-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-Ava.debug.xcconfig"; sourceTree = "<group>"; };
+		5CDC7849CD02FE8531F871333AC0FDA7 /* Pods-Radio-AvaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-AvaTests.release.xcconfig"; sourceTree = "<group>"; };
 		6854C4CD837360BC4C9B5D785E6B5937 /* FRadioPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRadioPlayer-prefix.pch"; sourceTree = "<group>"; };
-		6C4B32D0B18DF9ACA0BB807410DE399A /* Pods-Radio AvaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio AvaTests-dummy.m"; sourceTree = "<group>"; };
-		7947CCF737997995658AB8F4DDA45BE8 /* Pods-Radio Ava-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio Ava-resources.sh"; sourceTree = "<group>"; };
+		6FD85774AE32F9C47764E2069CE0639E /* Pods_Radio_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_Ava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1352BE523973C34D3B1152037DEB79 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Source/Reachability.swift; sourceTree = "<group>"; };
-		800BF25987EE43703B6CB9EA29189F15 /* Pods-Radio AvaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio AvaTests-resources.sh"; sourceTree = "<group>"; };
-		82251B87D0D7A3E4A2FF3DED033347C4 /* Pods-Radio Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio Ava.release.xcconfig"; sourceTree = "<group>"; };
+		843BFF2A9A1394808A1C9D8E93E9DE7C /* Pods-Radio-AvaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-AvaUITests-frameworks.sh"; sourceTree = "<group>"; };
 		84EA22907173B4C66503723A37FD2A6B /* FRadioPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRadioPlayer.xcconfig; sourceTree = "<group>"; };
-		8CD38F5360C0FAF41EC48277E5216076 /* Pods-Radio Ava-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio Ava-frameworks.sh"; sourceTree = "<group>"; };
+		894EFF97D27B49FD8578BBC3F7687DC8 /* Pods-Radio-Ava-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio-Ava-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95B21D2BE720D9C988AF5958C48D2775 /* Pods-Radio AvaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio AvaUITests-resources.sh"; sourceTree = "<group>"; };
-		96D6C69A347310B8CBBB49C40FE36093 /* Pods-Radio AvaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio AvaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		980CE32485003C8BF8039C1F3EC9353C /* Pods-Radio AvaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio AvaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94CB9D73A6C4BA1DB604B1BF17BB2B4A /* Pods-Radio-AvaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio-AvaUITests-umbrella.h"; sourceTree = "<group>"; };
+		97C48AD31A5DCBDF001C5A797E05886A /* Pods-Radio-AvaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio-AvaUITests-dummy.m"; sourceTree = "<group>"; };
 		9A2E6B9995AC734F8B54FD6877DB7AF8 /* FRadioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FRadioPlayer.swift; path = Source/FRadioPlayer.swift; sourceTree = "<group>"; };
-		9EB36EE85966ACFB1396EFB24EBD9C36 /* Pods_Radio_AvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_AvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E902ABCD5C42C55557D08F6A4A396E /* FRadioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FRadioPlayer.modulemap; sourceTree = "<group>"; };
-		A777A3F65E2294457E565577C383D93D /* Pods-Radio AvaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio AvaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B64FA66D42F15DD957C92EFB5FC95BF9 /* Pods-Radio Ava-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio Ava-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7DA77865EB84C33A4C721B52E787AC7 /* Pods-Radio Ava.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio Ava.modulemap"; sourceTree = "<group>"; };
-		CCA78ED865905E00AD3ABDD63358B73F /* Pods-Radio Ava-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Radio Ava-dummy.m"; sourceTree = "<group>"; };
-		CFB122F82017407E9FE5A175BEB3CD2A /* Pods-Radio AvaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio AvaTests-frameworks.sh"; sourceTree = "<group>"; };
-		D05157DDA41AB4209F3021A60C719686 /* Pods-Radio AvaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio AvaUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D327D8A72D6B1D4C6CAFBF18495B4965 /* Pods-Radio AvaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio AvaUITests.modulemap"; sourceTree = "<group>"; };
-		D435CDB254FE7584BDB8CB32BC55AB60 /* Pods-Radio AvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio AvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D99CDFFA0809622035A19A8175BF6085 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB38D347D5C298A3CEAD3ABD9F869D2F /* Pods-Radio AvaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio AvaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1D5B9A380BB4D1DA19DC36A8AEB129B /* Pods-Radio-AvaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-AvaTests-frameworks.sh"; sourceTree = "<group>"; };
+		A9ED58400132C31B65D3E2261DD1B382 /* Pods-Radio-AvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-AvaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD2CE53C1E9FCA6C7AAAB28B053C01DD /* Pods-Radio-AvaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio-AvaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADA0FD8F3D1BD2EFB89B0C5C7F6CA1D9 /* Pods-Radio-AvaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio-AvaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEED4F91C55F5B68E992429011B3972B /* Pods-Radio-AvaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-AvaUITests-resources.sh"; sourceTree = "<group>"; };
+		B92EFB4222B2BB6EF573D8DBC5FE629B /* Pods-Radio-AvaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio-AvaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1F8DA1E53BB6AE8BB3D57FCD002964C /* Pods-Radio-Ava-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Radio-Ava-acknowledgements.plist"; sourceTree = "<group>"; };
+		C486001E9195894135A6B64B3300B521 /* Pods-Radio-Ava-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Radio-Ava-umbrella.h"; sourceTree = "<group>"; };
+		C5E192B84082FD138980EC75F4575684 /* Pods-Radio-AvaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio-AvaUITests.modulemap"; sourceTree = "<group>"; };
+		D0E3CE01F322B02DA06A734559C71FB6 /* Pods-Radio-Ava-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-Ava-resources.sh"; sourceTree = "<group>"; };
+		D105F7EBF87E185B95EFC32EE6D6FCDB /* Pods_Radio_AvaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_AvaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFC093E543DFB6ADA35AC10B692A74 /* Pods-Radio-Ava-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Radio-Ava-frameworks.sh"; sourceTree = "<group>"; };
+		DB9400EFFA2A42571ABA69E43F3CD2A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC54B94A2E4C1E308F57A26D606B9CF7 /* Pods-Radio-AvaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-AvaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBBD4836CB2A6B236E06521B4F95DFF /* Pods_Radio_AvaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_AvaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1552BDB4B7B0D1B091DA7F384D86D80 /* Pods-Radio-AvaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-AvaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9BF4471C3BDC16187581DA5563DBA93 /* FRadioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRadioPlayer-umbrella.h"; sourceTree = "<group>"; };
+		ED07AFB3F3691DEC623DA8BA680157B4 /* Pods-Radio-AvaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Radio-AvaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4B7B30201E2F6BF1EE33A4548A0BEA4 /* Pods-Radio-Ava.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Radio-Ava.modulemap"; sourceTree = "<group>"; };
+		FE25FD977D7DCD28E33B4F8DF3DBC42A /* Pods-Radio-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Radio-Ava.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AAEC71A76AC39C43B053F405E0AC71D /* Frameworks */ = {
+		374A3E3757DFFE6034461EBF5A6303CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0386496E21D1EAB3FF632339745080CF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DFFDDD4440D5E6C924F38AE68758F65 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A94AB259234F4668696046917EFE6C17 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75BEC86326DA435225805B28C0200D19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37E33694772E17B6421EC43B005E465B /* Foundation.framework in Frameworks */,
+				6904E9737F5330E892ED71DA09A3C972 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +113,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		848202C42C26DEC7C487405EF81E36A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5E643E8CF0B42E17BFD5C5B4726C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70E6EE3AD3AB298BA0DBACB130BC627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C59E175C9B986F6A2CA6431A6D1D920 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D55AD3902C0110A20C33BC4577F1BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89CF571920FD14144F8887A7DB6C679D /* Pods-Radio-Ava */,
+				6E682888C57446F6E78B1303F4D6846E /* Pods-Radio-AvaTests */,
+				569B12668CB2A9C1DDBD767E002A672D /* Pods-Radio-AvaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		034223A273EB3FC2968DE54F16C9D399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C8B80494F3435D27101D0E3B805785 /* FRadioPlayer.framework */,
+				6FD85774AE32F9C47764E2069CE0639E /* Pods_Radio_Ava.framework */,
+				DEBBD4836CB2A6B236E06521B4F95DFF /* Pods_Radio_AvaTests.framework */,
+				D105F7EBF87E185B95EFC32EE6D6FCDB /* Pods_Radio_AvaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		08ECF40DC5E8637D98E881B37C4862CB /* FRadioPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,33 +178,22 @@
 			path = "../Target Support Files/FRadioPlayer";
 			sourceTree = "<group>";
 		};
-		38D27B57D246361C6CA26CFF5314479E /* Pods-Radio Ava */ = {
+		569B12668CB2A9C1DDBD767E002A672D /* Pods-Radio-AvaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D99CDFFA0809622035A19A8175BF6085 /* Info.plist */,
-				C7DA77865EB84C33A4C721B52E787AC7 /* Pods-Radio Ava.modulemap */,
-				B64FA66D42F15DD957C92EFB5FC95BF9 /* Pods-Radio Ava-acknowledgements.markdown */,
-				122C67F05859F712ACF98499CA3377F5 /* Pods-Radio Ava-acknowledgements.plist */,
-				CCA78ED865905E00AD3ABDD63358B73F /* Pods-Radio Ava-dummy.m */,
-				8CD38F5360C0FAF41EC48277E5216076 /* Pods-Radio Ava-frameworks.sh */,
-				7947CCF737997995658AB8F4DDA45BE8 /* Pods-Radio Ava-resources.sh */,
-				1FB216C0C99F270ED8F98FC793C1A86A /* Pods-Radio Ava-umbrella.h */,
-				59A40137BC06516B9F69FA538130782B /* Pods-Radio Ava.debug.xcconfig */,
-				82251B87D0D7A3E4A2FF3DED033347C4 /* Pods-Radio Ava.release.xcconfig */,
+				3771B3C06D102517FF4BEE9BBA6D80A6 /* Info.plist */,
+				C5E192B84082FD138980EC75F4575684 /* Pods-Radio-AvaUITests.modulemap */,
+				ED07AFB3F3691DEC623DA8BA680157B4 /* Pods-Radio-AvaUITests-acknowledgements.markdown */,
+				ADA0FD8F3D1BD2EFB89B0C5C7F6CA1D9 /* Pods-Radio-AvaUITests-acknowledgements.plist */,
+				97C48AD31A5DCBDF001C5A797E05886A /* Pods-Radio-AvaUITests-dummy.m */,
+				843BFF2A9A1394808A1C9D8E93E9DE7C /* Pods-Radio-AvaUITests-frameworks.sh */,
+				AEED4F91C55F5B68E992429011B3972B /* Pods-Radio-AvaUITests-resources.sh */,
+				94CB9D73A6C4BA1DB604B1BF17BB2B4A /* Pods-Radio-AvaUITests-umbrella.h */,
+				E1552BDB4B7B0D1B091DA7F384D86D80 /* Pods-Radio-AvaUITests.debug.xcconfig */,
+				A9ED58400132C31B65D3E2261DD1B382 /* Pods-Radio-AvaUITests.release.xcconfig */,
 			);
-			name = "Pods-Radio Ava";
-			path = "Target Support Files/Pods-Radio Ava";
-			sourceTree = "<group>";
-		};
-		4A34DA3E9C8854D7F860D5709FBB2339 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3FF53A739FE4FE0F79CEFCB903E76883 /* FRadioPlayer.framework */,
-				0CD7283FCFEA9A375A4132FCCBE3EAF3 /* Pods_Radio_Ava.framework */,
-				178CF41EA398306D6EA8BE71DEEE4227 /* Pods_Radio_AvaTests.framework */,
-				9EB36EE85966ACFB1396EFB24EBD9C36 /* Pods_Radio_AvaUITests.framework */,
-			);
-			name = Products;
+			name = "Pods-Radio-AvaUITests";
+			path = "Target Support Files/Pods-Radio-AvaUITests";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -194,16 +204,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		605FF543950C3F0C9D3E46F8D3A74E77 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38D27B57D246361C6CA26CFF5314479E /* Pods-Radio Ava */,
-				92ED8B01A4D82545DA0D2FB184C32D5B /* Pods-Radio AvaTests */,
-				E0A97CAE8CE603E662A471C3D6A98617 /* Pods-Radio AvaUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		66F8A92B48417EAC587E2B112B8CA328 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,33 +212,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E682888C57446F6E78B1303F4D6846E /* Pods-Radio-AvaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C918170192393F02783198E8B6AC05A /* Info.plist */,
+				0EAFB516A633EDE83FF2A2976346606F /* Pods-Radio-AvaTests.modulemap */,
+				B92EFB4222B2BB6EF573D8DBC5FE629B /* Pods-Radio-AvaTests-acknowledgements.markdown */,
+				AD2CE53C1E9FCA6C7AAAB28B053C01DD /* Pods-Radio-AvaTests-acknowledgements.plist */,
+				207B13B5FDC0DD9F71DBD54C95C45A0A /* Pods-Radio-AvaTests-dummy.m */,
+				A1D5B9A380BB4D1DA19DC36A8AEB129B /* Pods-Radio-AvaTests-frameworks.sh */,
+				25406602A333B0668D47144E63511BC7 /* Pods-Radio-AvaTests-resources.sh */,
+				44308B383EDCEAC5C1E9CAA03C0AF586 /* Pods-Radio-AvaTests-umbrella.h */,
+				DC54B94A2E4C1E308F57A26D606B9CF7 /* Pods-Radio-AvaTests.debug.xcconfig */,
+				5CDC7849CD02FE8531F871333AC0FDA7 /* Pods-Radio-AvaTests.release.xcconfig */,
+			);
+			name = "Pods-Radio-AvaTests";
+			path = "Target Support Files/Pods-Radio-AvaTests";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				66F8A92B48417EAC587E2B112B8CA328 /* Pods */,
-				4A34DA3E9C8854D7F860D5709FBB2339 /* Products */,
-				605FF543950C3F0C9D3E46F8D3A74E77 /* Targets Support Files */,
+				034223A273EB3FC2968DE54F16C9D399 /* Products */,
+				00D55AD3902C0110A20C33BC4577F1BB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		92ED8B01A4D82545DA0D2FB184C32D5B /* Pods-Radio AvaTests */ = {
+		89CF571920FD14144F8887A7DB6C679D /* Pods-Radio-Ava */ = {
 			isa = PBXGroup;
 			children = (
-				5C44F17BCFA08E11EEA5D8CF9C20B214 /* Info.plist */,
-				1E5342E6C6D96A674AF709D640D21CF2 /* Pods-Radio AvaTests.modulemap */,
-				96D6C69A347310B8CBBB49C40FE36093 /* Pods-Radio AvaTests-acknowledgements.markdown */,
-				30DE0745426EEB7AAEB275DA14E63FA4 /* Pods-Radio AvaTests-acknowledgements.plist */,
-				6C4B32D0B18DF9ACA0BB807410DE399A /* Pods-Radio AvaTests-dummy.m */,
-				CFB122F82017407E9FE5A175BEB3CD2A /* Pods-Radio AvaTests-frameworks.sh */,
-				800BF25987EE43703B6CB9EA29189F15 /* Pods-Radio AvaTests-resources.sh */,
-				55DCD65913E8BC446E708A6E9A9A5AA2 /* Pods-Radio AvaTests-umbrella.h */,
-				DB38D347D5C298A3CEAD3ABD9F869D2F /* Pods-Radio AvaTests.debug.xcconfig */,
-				00BB94FAAF424724F8F5FFC4D09803EE /* Pods-Radio AvaTests.release.xcconfig */,
+				DB9400EFFA2A42571ABA69E43F3CD2A3 /* Info.plist */,
+				F4B7B30201E2F6BF1EE33A4548A0BEA4 /* Pods-Radio-Ava.modulemap */,
+				894EFF97D27B49FD8578BBC3F7687DC8 /* Pods-Radio-Ava-acknowledgements.markdown */,
+				C1F8DA1E53BB6AE8BB3D57FCD002964C /* Pods-Radio-Ava-acknowledgements.plist */,
+				45415003BE38C7410C16DE2DF78D074C /* Pods-Radio-Ava-dummy.m */,
+				D5EFC093E543DFB6ADA35AC10B692A74 /* Pods-Radio-Ava-frameworks.sh */,
+				D0E3CE01F322B02DA06A734559C71FB6 /* Pods-Radio-Ava-resources.sh */,
+				C486001E9195894135A6B64B3300B521 /* Pods-Radio-Ava-umbrella.h */,
+				5A1E738C8042C1CB489D8E67FA7730EA /* Pods-Radio-Ava.debug.xcconfig */,
+				FE25FD977D7DCD28E33B4F8DF3DBC42A /* Pods-Radio-Ava.release.xcconfig */,
 			);
-			name = "Pods-Radio AvaTests";
-			path = "Target Support Files/Pods-Radio AvaTests";
+			name = "Pods-Radio-Ava";
+			path = "Target Support Files/Pods-Radio-Ava";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -247,24 +265,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E0A97CAE8CE603E662A471C3D6A98617 /* Pods-Radio AvaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				58EE42EB912C2E29B860EBEEED302908 /* Info.plist */,
-				D327D8A72D6B1D4C6CAFBF18495B4965 /* Pods-Radio AvaUITests.modulemap */,
-				980CE32485003C8BF8039C1F3EC9353C /* Pods-Radio AvaUITests-acknowledgements.markdown */,
-				A777A3F65E2294457E565577C383D93D /* Pods-Radio AvaUITests-acknowledgements.plist */,
-				3FAC2BD2123299C56AC65FFDD27CF43E /* Pods-Radio AvaUITests-dummy.m */,
-				D05157DDA41AB4209F3021A60C719686 /* Pods-Radio AvaUITests-frameworks.sh */,
-				95B21D2BE720D9C988AF5958C48D2775 /* Pods-Radio AvaUITests-resources.sh */,
-				124DCC5D8149CE575569E2B44F3E378D /* Pods-Radio AvaUITests-umbrella.h */,
-				D435CDB254FE7584BDB8CB32BC55AB60 /* Pods-Radio AvaUITests.debug.xcconfig */,
-				6314B188CDE534CEE0801B69176FD0C0 /* Pods-Radio AvaUITests.release.xcconfig */,
-			);
-			name = "Pods-Radio AvaUITests";
-			path = "Target Support Files/Pods-Radio AvaUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,51 +278,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CE01DE7CAE7012ABC177AFD5E458F3C /* Headers */ = {
+		A82BC0EC8C21DC50E74873F84389D162 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750862DB36BA26ED61EC60216D8B2579 /* Pods-Radio AvaUITests-umbrella.h in Headers */,
+				098F8E89D3056E2F43CDBF5669C2B2DF /* Pods-Radio-Ava-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD0C8EC8972DB4E4719972052F5E4962 /* Headers */ = {
+		FABE4503CEC037347230FEF52CEFDAB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3F68C916B08A84C4A60264D854806E /* Pods-Radio AvaTests-umbrella.h in Headers */,
+				F0E03B45B6C9638D65BB218D045D1841 /* Pods-Radio-AvaTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3D4877ADC4434F5E7317128F2957BB9 /* Headers */ = {
+		FD2B8D5A762BEF20CA0497D3ABF6380D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EE1F9959A601E9713C2EADC50E76889 /* Pods-Radio Ava-umbrella.h in Headers */,
+				C2A65AA59059FA9F3FB1720EA2433F81 /* Pods-Radio-AvaUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9F13441AE0713C054370A933EA8B470D /* Pods-Radio AvaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0A088F611909FB1CF862DA88C9ED1F2 /* Build configuration list for PBXNativeTarget "Pods-Radio AvaTests" */;
-			buildPhases = (
-				6273C825F8454C8E33C213070AAD4791 /* Sources */,
-				0AAEC71A76AC39C43B053F405E0AC71D /* Frameworks */,
-				AD0C8EC8972DB4E4719972052F5E4962 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A89BBFD17ADB7BD13E65E0F0819E6945 /* PBXTargetDependency */,
-			);
-			name = "Pods-Radio AvaTests";
-			productName = "Pods-Radio AvaTests";
-			productReference = 178CF41EA398306D6EA8BE71DEEE4227 /* Pods_Radio_AvaTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A0B39AC04AC82982106EF1CCAC527F62 /* FRadioPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EDC6DDEFE6CE17BD3404038F8D65AD5 /* Build configuration list for PBXNativeTarget "FRadioPlayer" */;
@@ -337,43 +319,61 @@
 			);
 			name = FRadioPlayer;
 			productName = FRadioPlayer;
-			productReference = 3FF53A739FE4FE0F79CEFCB903E76883 /* FRadioPlayer.framework */;
+			productReference = 41C8B80494F3435D27101D0E3B805785 /* FRadioPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CE4E8E0190DF2F5757FA9B81E1101EA6 /* Pods-Radio AvaUITests */ = {
+		AA3DA15BABCD9254278266585D7B86FA /* Pods-Radio-AvaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B777D5E426C8D52830AF128C4032552 /* Build configuration list for PBXNativeTarget "Pods-Radio AvaUITests" */;
+			buildConfigurationList = 0B08082031BC352D3381F490D8C99940 /* Build configuration list for PBXNativeTarget "Pods-Radio-AvaTests" */;
 			buildPhases = (
-				98119A1774020BAB89161709D6B9A1AF /* Sources */,
-				2DFFDDD4440D5E6C924F38AE68758F65 /* Frameworks */,
-				3CE01DE7CAE7012ABC177AFD5E458F3C /* Headers */,
+				511F560D14EB95842D29DBA100AEA72E /* Sources */,
+				E70E6EE3AD3AB298BA0DBACB130BC627 /* Frameworks */,
+				FABE4503CEC037347230FEF52CEFDAB2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				590FC26A778022059838B14E5A8BCBD8 /* PBXTargetDependency */,
+				7B037ABD717CFCBEFDB40777FBE2DAB6 /* PBXTargetDependency */,
 			);
-			name = "Pods-Radio AvaUITests";
-			productName = "Pods-Radio AvaUITests";
-			productReference = 9EB36EE85966ACFB1396EFB24EBD9C36 /* Pods_Radio_AvaUITests.framework */;
+			name = "Pods-Radio-AvaTests";
+			productName = "Pods-Radio-AvaTests";
+			productReference = DEBBD4836CB2A6B236E06521B4F95DFF /* Pods_Radio_AvaTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DAECACA619AF496BCB37A42982F8CC1F /* Pods-Radio Ava */ = {
+		E7E89768100CBFE09E1595787A1137B9 /* Pods-Radio-AvaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E40AA9F8BFEC48926DC8E5E9FE89C6AE /* Build configuration list for PBXNativeTarget "Pods-Radio Ava" */;
+			buildConfigurationList = 13B734829653A36725CE4F864E473B87 /* Build configuration list for PBXNativeTarget "Pods-Radio-AvaUITests" */;
 			buildPhases = (
-				730B0E450DFD138E600B01CB86F73344 /* Sources */,
-				75BEC86326DA435225805B28C0200D19 /* Frameworks */,
-				F3D4877ADC4434F5E7317128F2957BB9 /* Headers */,
+				54A20F8B1402485935F65BBB27C32674 /* Sources */,
+				848202C42C26DEC7C487405EF81E36A6 /* Frameworks */,
+				FD2B8D5A762BEF20CA0497D3ABF6380D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				50A84B1D89F9EA055B9D21567E3E3DBB /* PBXTargetDependency */,
+				962D8DCB99C086D456679BBC44CF2E2A /* PBXTargetDependency */,
 			);
-			name = "Pods-Radio Ava";
-			productName = "Pods-Radio Ava";
-			productReference = 0CD7283FCFEA9A375A4132FCCBE3EAF3 /* Pods_Radio_Ava.framework */;
+			name = "Pods-Radio-AvaUITests";
+			productName = "Pods-Radio-AvaUITests";
+			productReference = D105F7EBF87E185B95EFC32EE6D6FCDB /* Pods_Radio_AvaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFFA63F258CE9FF28A74F39903A9222B /* Pods-Radio-Ava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E6B928681496791B2FC1AE759E7B83 /* Build configuration list for PBXNativeTarget "Pods-Radio-Ava" */;
+			buildPhases = (
+				6D5BC0E9BD86F67279FA7DC5F22E4B66 /* Sources */,
+				374A3E3757DFFE6034461EBF5A6303CE /* Frameworks */,
+				A82BC0EC8C21DC50E74873F84389D162 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24A82ED23F383F53730438D694087400 /* PBXTargetDependency */,
+			);
+			name = "Pods-Radio-Ava";
+			productName = "Pods-Radio-Ava";
+			productReference = 6FD85774AE32F9C47764E2069CE0639E /* Pods_Radio_Ava.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -383,39 +383,48 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					A0B39AC04AC82982106EF1CCAC527F62 = {
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4A34DA3E9C8854D7F860D5709FBB2339 /* Products */;
+			productRefGroup = 034223A273EB3FC2968DE54F16C9D399 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A0B39AC04AC82982106EF1CCAC527F62 /* FRadioPlayer */,
-				DAECACA619AF496BCB37A42982F8CC1F /* Pods-Radio Ava */,
-				9F13441AE0713C054370A933EA8B470D /* Pods-Radio AvaTests */,
-				CE4E8E0190DF2F5757FA9B81E1101EA6 /* Pods-Radio AvaUITests */,
+				EFFA63F258CE9FF28A74F39903A9222B /* Pods-Radio-Ava */,
+				AA3DA15BABCD9254278266585D7B86FA /* Pods-Radio-AvaTests */,
+				E7E89768100CBFE09E1595787A1137B9 /* Pods-Radio-AvaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6273C825F8454C8E33C213070AAD4791 /* Sources */ = {
+		511F560D14EB95842D29DBA100AEA72E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981D032F9FD543F7988B262A51A0136C /* Pods-Radio AvaTests-dummy.m in Sources */,
+				59E83D63BC4B76566AD105F75EB0BB00 /* Pods-Radio-AvaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A20F8B1402485935F65BBB27C32674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B2E80AED86C05AADB0E33DA5CB3E2 /* Pods-Radio-AvaUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,149 +439,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		730B0E450DFD138E600B01CB86F73344 /* Sources */ = {
+		6D5BC0E9BD86F67279FA7DC5F22E4B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8891B8D5F3D5B74824B5950862EDD15C /* Pods-Radio Ava-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98119A1774020BAB89161709D6B9A1AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A370FCE5179921124D29003EC39496E /* Pods-Radio AvaUITests-dummy.m in Sources */,
+				508887717B98D40377B64B922DE9A7F7 /* Pods-Radio-Ava-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50A84B1D89F9EA055B9D21567E3E3DBB /* PBXTargetDependency */ = {
+		24A82ED23F383F53730438D694087400 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FRadioPlayer;
 			target = A0B39AC04AC82982106EF1CCAC527F62 /* FRadioPlayer */;
-			targetProxy = 7A63551DC9BB7E8751BAF21FB96E75A8 /* PBXContainerItemProxy */;
+			targetProxy = 35E4C7F8EFCA3F4F74E105EB91375563 /* PBXContainerItemProxy */;
 		};
-		590FC26A778022059838B14E5A8BCBD8 /* PBXTargetDependency */ = {
+		7B037ABD717CFCBEFDB40777FBE2DAB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Radio Ava";
-			target = DAECACA619AF496BCB37A42982F8CC1F /* Pods-Radio Ava */;
-			targetProxy = 28A376C847FA4DD1FD44B2C65997F074 /* PBXContainerItemProxy */;
+			name = "Pods-Radio-Ava";
+			target = EFFA63F258CE9FF28A74F39903A9222B /* Pods-Radio-Ava */;
+			targetProxy = F3EC48FCFFB151313AF942F56CF412D8 /* PBXContainerItemProxy */;
 		};
-		A89BBFD17ADB7BD13E65E0F0819E6945 /* PBXTargetDependency */ = {
+		962D8DCB99C086D456679BBC44CF2E2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Radio Ava";
-			target = DAECACA619AF496BCB37A42982F8CC1F /* Pods-Radio Ava */;
-			targetProxy = EE73F7FBA58FDEE8682F8137A870CE70 /* PBXContainerItemProxy */;
+			name = "Pods-Radio-Ava";
+			target = EFFA63F258CE9FF28A74F39903A9222B /* Pods-Radio-Ava */;
+			targetProxy = BE2484CE92A3AD5A01A2C30B8CA09B9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E08928B62AEE013B62BEA1BFB487BD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6314B188CDE534CEE0801B69176FD0C0 /* Pods-Radio AvaUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio AvaUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio AvaUITests/Pods-Radio AvaUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		42C36B172DAB560E650B66BAA6B7437C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00BB94FAAF424724F8F5FFC4D09803EE /* Pods-Radio AvaTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio AvaTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio AvaTests/Pods-Radio AvaTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		483B9A29636F72869BA82EDB3F152681 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84EA22907173B4C66503723A37FD2A6B /* FRadioPlayer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FRadioPlayer/FRadioPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FRadioPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FRadioPlayer/FRadioPlayer.modulemap";
-				PRODUCT_MODULE_NAME = FRadioPlayer;
-				PRODUCT_NAME = FRadioPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4ABDEC8A37534D2520818E97DDDE6D4A /* Release */ = {
+		01C604FCD6EE6E1F0F5D09585B70B569 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84EA22907173B4C66503723A37FD2A6B /* FRadioPlayer.xcconfig */;
 			buildSettings = {
@@ -597,7 +496,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -658,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -672,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -718,7 +619,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -727,9 +628,9 @@
 			};
 			name = Release;
 		};
-		5C2B6C0A9EB5CB95FB0906686644420B /* Debug */ = {
+		7A1AC09456F99DACD6BD579CE731E05A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D435CDB254FE7584BDB8CB32BC55AB60 /* Pods-Radio AvaUITests.debug.xcconfig */;
+			baseConfigurationReference = 5A1E738C8042C1CB489D8E67FA7730EA /* Pods-Radio-Ava.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -742,82 +643,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio AvaUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-Ava/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio AvaUITests/Pods-Radio AvaUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		640645086BB5603470A93EF26C400D2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82251B87D0D7A3E4A2FF3DED033347C4 /* Pods-Radio Ava.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio Ava/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio Ava/Pods-Radio Ava.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D99D5E2FEBF8E3F0CB8CE2C21F93BBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59A40137BC06516B9F69FA538130782B /* Pods-Radio Ava.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio Ava/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio Ava/Pods-Radio Ava.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-Ava/Pods-Radio-Ava.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -833,9 +664,41 @@
 			};
 			name = Debug;
 		};
-		C9A921249C4A69D8FE2D6783F25364B4 /* Debug */ = {
+		B8995C4DEFA7BEA284B7261B2908ABED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB38D347D5C298A3CEAD3ABD9F869D2F /* Pods-Radio AvaTests.debug.xcconfig */;
+			baseConfigurationReference = 84EA22907173B4C66503723A37FD2A6B /* FRadioPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FRadioPlayer/FRadioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FRadioPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FRadioPlayer/FRadioPlayer.modulemap";
+				PRODUCT_MODULE_NAME = FRadioPlayer;
+				PRODUCT_NAME = FRadioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE03A35E36D33A21EF4ED4FC1FB1C19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC54B94A2E4C1E308F57A26D606B9CF7 /* Pods-Radio-AvaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -848,12 +711,152 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Radio AvaTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-AvaTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Radio AvaTests/Pods-Radio AvaTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-AvaTests/Pods-Radio-AvaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7B84AE53B100E4DF8DB08156CC7E121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE25FD977D7DCD28E33B4F8DF3DBC42A /* Pods-Radio-Ava.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-Ava/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-Ava/Pods-Radio-Ava.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9EB99B8E74AC41A5B7BE555C93FC79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDC7849CD02FE8531F871333AC0FDA7 /* Pods-Radio-AvaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-AvaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-AvaTests/Pods-Radio-AvaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4CE1DD09BA2982241F9024032AEDD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9ED58400132C31B65D3E2261DD1B382 /* Pods-Radio-AvaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-AvaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-AvaUITests/Pods-Radio-AvaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0D464FA154BF0C7D2A1B08D8499E9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1552BDB4B7B0D1B091DA7F384D86D80 /* Pods-Radio-AvaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Radio-AvaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Radio-AvaUITests/Pods-Radio-AvaUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -870,11 +873,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B08082031BC352D3381F490D8C99940 /* Build configuration list for PBXNativeTarget "Pods-Radio-AvaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE03A35E36D33A21EF4ED4FC1FB1C19B /* Debug */,
+				D9EB99B8E74AC41A5B7BE555C93FC79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B734829653A36725CE4F864E473B87 /* Build configuration list for PBXNativeTarget "Pods-Radio-AvaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D464FA154BF0C7D2A1B08D8499E9FF /* Debug */,
+				E4CE1DD09BA2982241F9024032AEDD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1EDC6DDEFE6CE17BD3404038F8D65AD5 /* Build configuration list for PBXNativeTarget "FRadioPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				483B9A29636F72869BA82EDB3F152681 /* Debug */,
-				4ABDEC8A37534D2520818E97DDDE6D4A /* Release */,
+				B8995C4DEFA7BEA284B7261B2908ABED /* Debug */,
+				01C604FCD6EE6E1F0F5D09585B70B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E6B928681496791B2FC1AE759E7B83 /* Build configuration list for PBXNativeTarget "Pods-Radio-Ava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1AC09456F99DACD6BD579CE731E05A /* Debug */,
+				D7B84AE53B100E4DF8DB08156CC7E121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -884,33 +914,6 @@
 			buildConfigurations = (
 				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
 				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B777D5E426C8D52830AF128C4032552 /* Build configuration list for PBXNativeTarget "Pods-Radio AvaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C2B6C0A9EB5CB95FB0906686644420B /* Debug */,
-				2E08928B62AEE013B62BEA1BFB487BD1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E40AA9F8BFEC48926DC8E5E9FE89C6AE /* Build configuration list for PBXNativeTarget "Pods-Radio Ava" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D99D5E2FEBF8E3F0CB8CE2C21F93BBA /* Debug */,
-				640645086BB5603470A93EF26C400D2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0A088F611909FB1CF862DA88C9ED1F2 /* Build configuration list for PBXNativeTarget "Pods-Radio AvaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C9A921249C4A69D8FE2D6783F25364B4 /* Debug */,
-				42C36B172DAB560E650B66BAA6B7437C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

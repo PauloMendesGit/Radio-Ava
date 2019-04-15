@@ -29,7 +29,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         setupAudioContent()
+        setupMediaPlayerNotificationView()
         print(getSongTitle())
+        // This might only work  10+
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch {
+            print(error)
+        }
+        
+        // MPNowPlayingInfoCenter.default().nowPlayingInfo = nowPlayingInfo
     }
     
     private func setupAudioContent() {
@@ -49,4 +59,40 @@ class ViewController: UIViewController {
         
         return stringUrl
     }
+    
+    func setupMediaPlayerNotificationView(){
+        let comandCenter = MPRemoteCommandCenter.shared()
+        
+        comandCenter.previousTrackCommand.isEnabled = false
+        comandCenter.nextTrackCommand.isEnabled = false
+        
+        // Add handler for Play Command
+        comandCenter.playCommand.addTarget { [unowned self] event in
+            self.audioPlayer?.play()
+            return .success
+        }
+        
+        // Add handler for Pause Command
+        comandCenter.pauseCommand.addTarget { [unowned self] event in
+            self.audioPlayer?.pause()
+            return .success
+        }
+    }
+    
+/*    func setupNotificationView() {
+        
+        nowPlayingInfo = [String : Any]()
+        
+        nowPlayingInfo[MPMediaItemPropertyTitle] = "Song Name"
+        nowPlayingInfo[MPMediaItemPropertyAlbumTitle] = "Album Name"
+        nowPlayingInfo[MPMediaItemPropertyArtist] = "Artist Name"
+        
+        self.nowPlayingInfo?[MPMediaItemPropertyArtwork] = MPMediaItemArtwork(boundsSize: img.size, requestHandler: { (size) -> UIImage in
+            return img
+        })
+        
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = nowPlayingInfo
+    }
+*/
+    
 }

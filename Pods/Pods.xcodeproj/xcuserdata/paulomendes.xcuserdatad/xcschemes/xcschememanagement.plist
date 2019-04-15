@@ -11,21 +11,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-Radio Ava.xcscheme</key>
+		<key>Pods-Radio-Ava.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-Radio AvaTests.xcscheme</key>
+		<key>Pods-Radio-AvaTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-Radio AvaUITests.xcscheme</key>
+		<key>Pods-Radio-AvaUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9F13441AE0713C054370A933EA8B470D"
-               BuildableName = "Pods_Radio_AvaTests.framework"
-               BlueprintName = "Pods-Radio AvaTests"
+               BlueprintIdentifier = "E7E89768100CBFE09E1595787A1137B9"
+               BuildableName = "Pods_Radio_AvaUITests.framework"
+               BlueprintName = "Pods-Radio-AvaUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9F13441AE0713C054370A933EA8B470D"
-            BuildableName = "Pods_Radio_AvaTests.framework"
-            BlueprintName = "Pods-Radio AvaTests"
+            BlueprintIdentifier = "E7E89768100CBFE09E1595787A1137B9"
+            BuildableName = "Pods_Radio_AvaUITests.framework"
+            BlueprintName = "Pods-Radio-AvaUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

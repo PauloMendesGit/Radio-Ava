@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0B0ED25CEBE4719A7A55E499 /* Pods_Radio_Ava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3448237E301F5B6D58EFC098 /* Pods_Radio_Ava.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		0E4206E8B119B177032AB652 /* Pods_Radio_AvaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC830AAF33725518F2623740 /* Pods_Radio_AvaUITests.framework */; };
+		801E671F22688EA200C40747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801E671E22688EA200C40747 /* Assets.xcassets */; };
 		805E8F3521264D4300D39C88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 805E8F3421264D4300D39C88 /* Default-568h@2x.png */; };
 		80940FF720D9698E00A71181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80940FF620D9698E00A71181 /* AppDelegate.swift */; };
 		80940FF920D9698E00A71181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80940FF820D9698E00A71181 /* ViewController.swift */; };
 		80940FFC20D9698E00A71181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80940FFA20D9698E00A71181 /* Main.storyboard */; };
-		80940FFE20D9699000A71181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80940FFD20D9699000A71181 /* Assets.xcassets */; };
 		8094100120D9699000A71181 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80940FFF20D9699000A71181 /* LaunchScreen.storyboard */; };
 		8094100C20D9699000A71181 /* Radio_AvaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094100B20D9699000A71181 /* Radio_AvaTests.swift */; };
 		8094101720D9699000A71181 /* Radio_AvaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8094101620D9699000A71181 /* Radio_AvaUITests.swift */; };
@@ -47,13 +47,13 @@
 		6383802B0D00608ED1D647DC /* Pods-Radio-AvaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio-AvaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radio-AvaUITests/Pods-Radio-AvaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6837EB288351ECD4B7AB4CE4 /* Pods-Radio-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio-Ava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Radio-Ava/Pods-Radio-Ava.debug.xcconfig"; sourceTree = "<group>"; };
 		6B231DD5E74B3C334B8BB840 /* Pods-Radio-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio-Ava.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radio-Ava/Pods-Radio-Ava.release.xcconfig"; sourceTree = "<group>"; };
+		801E671E22688EA200C40747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80302E082239B20900CDD6F2 /* Radio Ava.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Radio Ava.entitlements"; sourceTree = "<group>"; };
 		805E8F3421264D4300D39C88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		80940FF320D9698E00A71181 /* Radio-Ava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio-Ava.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80940FF620D9698E00A71181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80940FF820D9698E00A71181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80940FFB20D9698E00A71181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80940FFD20D9699000A71181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8094100020D9699000A71181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8094100220D9699000A71181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8094100720D9699000A71181 /* Radio-AvaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio-AvaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,11 +134,11 @@
 		80940FF520D9698E00A71181 /* Radio Ava */ = {
 			isa = PBXGroup;
 			children = (
+				801E671E22688EA200C40747 /* Assets.xcassets */,
 				80302E082239B20900CDD6F2 /* Radio Ava.entitlements */,
 				80940FF620D9698E00A71181 /* AppDelegate.swift */,
 				80940FF820D9698E00A71181 /* ViewController.swift */,
 				80940FFA20D9698E00A71181 /* Main.storyboard */,
-				80940FFD20D9699000A71181 /* Assets.xcassets */,
 				80940FFF20D9699000A71181 /* LaunchScreen.storyboard */,
 				8094100220D9699000A71181 /* Info.plist */,
 			);
@@ -306,7 +306,7 @@
 			files = (
 				8094100120D9699000A71181 /* LaunchScreen.storyboard in Resources */,
 				805E8F3521264D4300D39C88 /* Default-568h@2x.png in Resources */,
-				80940FFE20D9699000A71181 /* Assets.xcassets in Resources */,
+				801E671F22688EA200C40747 /* Assets.xcassets in Resources */,
 				80940FFC20D9698E00A71181 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,7 +593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.switchcaseapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.switchcaseapp.radioava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -617,7 +617,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.switchcaseapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.switchcaseapp.radioava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

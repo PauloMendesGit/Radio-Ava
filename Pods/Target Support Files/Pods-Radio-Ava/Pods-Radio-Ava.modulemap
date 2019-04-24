@@ -1,0 +1,6 @@
+framework module Pods_Radio_Ava {
+  umbrella header "Pods-Radio-Ava-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0B39AC04AC82982106EF1CCAC527F62"
-               BuildableName = "FRadioPlayer.framework"
-               BlueprintName = "FRadioPlayer"
+               BlueprintIdentifier = "AA3DA15BABCD9254278266585D7B86FA"
+               BuildableName = "Pods_Radio_AvaTests.framework"
+               BlueprintName = "Pods-Radio-AvaTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0B39AC04AC82982106EF1CCAC527F62"
-            BuildableName = "FRadioPlayer.framework"
-            BlueprintName = "FRadioPlayer"
+            BlueprintIdentifier = "AA3DA15BABCD9254278266585D7B86FA"
+            BuildableName = "Pods_Radio_AvaTests.framework"
+            BlueprintName = "Pods-Radio-AvaTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

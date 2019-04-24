@@ -124,6 +124,11 @@ class ViewController: UIViewController {
         
         // Add handler for Play Command
         comandCenter.playCommand.addTarget { [unowned self] event in
+            if (self.audioPlayer == nil) {
+                self.isPlaying = false
+                self.setupAudioContent()
+            }
+            
             self.isPlaying = true
             self.audioPlayer?.play()
             self.playBtn.setImage(UIImage(named: "btn-pause"), for: .normal)
